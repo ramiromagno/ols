@@ -1,0 +1,18 @@
+Package: ols
+Title: REST API Client for the Ontology Lookup Service
+Version: 0.0.1
+Authors@R: c(
+    person("Ramiro", "Magno", , "rmagno@pattern.institute", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5226-3441")),
+    person("Pattern Institute", role = c("cph", "fnd"))
+  )
+Description: Programmatic access to the Ontology Lookup Service (OLS).
+    This package provides easy access to biomedical ontologies as made available
+    by the European Bioinformatics Institute 'OLS' through its REST API
+    <https://www.ebi.ac.uk/ols4/api/ontologies>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: https://github.com/ramiromagno/ols
+BugReports: https://github.com/ramiromagno/ols/issues
